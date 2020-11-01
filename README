@@ -1,0 +1,33 @@
+inbar.ziter, shir_brosh
+inbar ziter (205790504), shir brosh (316124767)
+EX: 2
+
+FILES:
+MapReduceFramework.cpp
+fileWordCounter_comparison.png
+MakeFile
+MapReduceFramework.h
+MapReduceClient.h
+Barrier.h
+Barrier.cpp
+
+REMARKS:
+
+ANSWERS:
+
+File Word Counter:
+The hardware we used is:
+model- 158
+model name- Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+cores - 4
+
+
+In the added graph we can see that the run time of the program descends as we add more threads
+(increase the multiThreadsLevel).
+
+part 2:
+1. Assuming there is no memory access, the optimal number of (kernel-level) threads for foo is 1
+thread per core.
+
+2-a. 2n lines will be printed.
+2-b. There are (n!)^2 different options for printing the lines.
